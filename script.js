@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
         yearSpan.textContent = new Date().getFullYear()
     }
 
-    // Simple console message to confirm the script is connected
+
     console.log('Portfolio loaded successfully ✅')
 })
