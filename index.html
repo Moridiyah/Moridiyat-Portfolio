@@ -660,17 +660,123 @@
             </div>
         </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <ul class="contact-list">
-                <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-                <li>GitHub: <a href="https://github.com/USERNAME" target="_blank" rel="noopener">github.com/USERNAME</a></li>
-                <li>LinkedIn: <a href="https://linkedin.com/in/USERNAME" target="_blank" rel="noopener">linkedin.com/in/USERNAME</a></li>
-            </ul>
-        </div>
-    </section>
+        <section id="contact" class="contact-section reveal">
+            <div class="container">
+
+                <div class="contact-top">
+                    <span class="section-icon" aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                    </span>
+                    <h2 class="section-heading">Get In Touch</h2>
+                </div>
+                <p class="contact-tagline">
+                    Let's discuss your next project or just say hello!
+                </p>
+
+                <div class="contact-layout">
+
+                    <div class="contact-info">
+                        <h3 class="contact-info-title">Let's Connect</h3>
+                        <p class="contact-info-text">
+                            I'm always open to discussing new opportunities, interesting
+                            projects, or just having a chat about technology and
+                            development.
+                        </p>
+
+                        <ul class="contact-details">
+                            <li>
+                                <span class="contact-detail-icon" aria-hidden="true">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                        <polyline points="22,6 12,13 2,6" />
+                                    </svg>
+                                </span>
+                                <div class="contact-detail-body">
+                                    <span class="contact-detail-label">Email</span>
+                                    <span class="contact-detail-value">hello@example.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-detail-icon" aria-hidden="true">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </span>
+                                <div class="contact-detail-body">
+                                    <span class="contact-detail-label">Location</span>
+                                    <span class="contact-detail-value">Nigeria</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-detail-icon" aria-hidden="true">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <polyline points="12 6 12 12 16 14" />
+                                    </svg>
+                                </span>
+                                <div class="contact-detail-body">
+                                    <span class="contact-detail-label">Response Time</span>
+                                    <span class="contact-detail-value">Within 24 hours</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="firstName">First Name <span class="required">*</span></label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required />
+                            </div>
+                            <div class="form-field">
+                                <label for="lastName">Last Name <span class="required">*</span></label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required />
+                            </div>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+                        </div>
+
+                        <div class="form-field">
+                            <label for="subject">Subject <span class="required">*</span></label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="project">Project inquiry</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="hello">Just saying hi</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell me about your project or how I can help..."
+                                required></textarea>
+                            <p class="form-tip">💡 Tip: a meaningful message helps me reply properly.</p>
+                        </div>
+
+                        <button type="submit" class="btn form-submit" id="formSubmit">
+                            Send Message
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
 
     </main>
 
