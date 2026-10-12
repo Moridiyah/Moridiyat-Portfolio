@@ -5,99 +5,675 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moridiyat | Software Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Dancing+Script:wght@600;700&display=swap"
+        rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="#home" class="logo">Moridiyat</a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <!-- ==================================================== -->
+    <!-- DECORATIVE EDGE — flowers + 4 corner cats            -->
+    <!-- ==================================================== -->
+    <div class="edge-decor" aria-hidden="true">
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>Hi, I'm <span class="highlight">Moridiyat</span>.</h1>
-            <h2>Software Developer</h2>
-            <p>
-                I build clean, modern web experiences with a focus on frontend and backend development. Welcome to my portfolio.
-            </p>
-            <a href="#projects" class="btn">View My Projects</a>
+        <!-- Top edge flowers -->
+        <div class="decor-flower decor-flower-tl">
+            <svg viewBox="0 0 40 40" width="32" height="32">
+                <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+            </svg>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <p>
-                I am a software developer with experience in both frontend and backend web development. I enjoy turning ideas into functional, user-friendly applications and I'm constantly learning new technologies to sharpen my craft.
-            </p>
+        <div class="decor-flower decor-flower-tc">
+            <svg viewBox="0 0 40 40" width="24" height="24">
+                <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+            </svg>
         </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <ul class="skills-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Git &amp; GitHub</li>
-            </ul>
+        <div class="decor-flower decor-flower-tr">
+            <svg viewBox="0 0 40 40" width="28" height="28">
+                <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+            </svg>
         </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <h3>Project One</h3>
-                    <p>A short description of your first project will go here.</p>
-                </article>
-                <article class="project-card">
-                    <h3>Project Two</h3>
-                    <p>A short description of your second project will go here.</p>
-                </article>
-                <article class="project-card">
-                    <h3>Project Three</h3>
-                    <p>A short description of your third project will go here.</p>
-                </article>
+        <!-- Side flowers -->
+        <div class="decor-flower decor-flower-ml">
+            <svg viewBox="0 0 40 40" width="26" height="26">
+                <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+            </svg>
+        </div>
+
+        <div class="decor-flower decor-flower-mr">
+            <svg viewBox="0 0 40 40" width="26" height="26">
+                <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+            </svg>
+        </div>
+
+        <!-- Top-left cat (hangs upside down from the top) -->
+        <div class="decor-cat decor-cat-tl">
+            <svg viewBox="0 0 80 70" width="72" height="63">
+                <path d="M12 35 L10 5 L32 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <path d="M68 35 L70 5 L48 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <circle cx="40" cy="45" r="28" fill="#fce7ef" stroke="#c4637a" stroke-width="1.4" />
+                <ellipse cx="30" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <ellipse cx="50" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <path d="M40 52 L36.5 55 L43.5 55 Z" fill="#c4637a" />
+                <path d="M40 55 Q37 58 34 56 M40 55 Q43 58 46 56" stroke="#c4637a" stroke-width="1" fill="none" stroke-linecap="round" />
+                <path d="M18 48 L6 46 M18 52 L6 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                <path d="M62 48 L74 46 M62 52 L74 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+            </svg>
+        </div>
+
+        <!-- Top-right cat (hangs upside down from the top) -->
+        <div class="decor-cat decor-cat-tr">
+            <svg viewBox="0 0 80 70" width="72" height="63">
+                <path d="M12 35 L10 5 L32 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <path d="M68 35 L70 5 L48 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <circle cx="40" cy="45" r="28" fill="#fce7ef" stroke="#c4637a" stroke-width="1.4" />
+                <ellipse cx="30" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <ellipse cx="50" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <path d="M40 52 L36.5 55 L43.5 55 Z" fill="#c4637a" />
+                <path d="M40 55 Q37 58 34 56 M40 55 Q43 58 46 56" stroke="#c4637a" stroke-width="1" fill="none" stroke-linecap="round" />
+                <path d="M18 48 L6 46 M18 52 L6 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                <path d="M62 48 L74 46 M62 52 L74 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+            </svg>
+        </div>
+
+        <!-- Bottom-left cat -->
+        <div class="decor-cat decor-cat-bl">
+            <svg viewBox="0 0 80 70" width="80" height="70">
+                <path d="M12 35 L10 5 L32 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <path d="M68 35 L70 5 L48 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <circle cx="40" cy="45" r="28" fill="#fce7ef" stroke="#c4637a" stroke-width="1.4" />
+                <ellipse cx="30" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <ellipse cx="50" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <path d="M40 52 L36.5 55 L43.5 55 Z" fill="#c4637a" />
+                <path d="M40 55 Q37 58 34 56 M40 55 Q43 58 46 56" stroke="#c4637a" stroke-width="1" fill="none" stroke-linecap="round" />
+                <path d="M18 48 L6 46 M18 52 L6 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                <path d="M62 48 L74 46 M62 52 L74 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+            </svg>
+        </div>
+
+        <!-- Bottom-right cat (mirrored) -->
+        <div class="decor-cat decor-cat-br">
+            <svg viewBox="0 0 80 70" width="80" height="70">
+                <path d="M12 35 L10 5 L32 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <path d="M68 35 L70 5 L48 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                <circle cx="40" cy="45" r="28" fill="#fce7ef" stroke="#c4637a" stroke-width="1.4" />
+                <ellipse cx="30" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <ellipse cx="50" cy="42" rx="3" ry="4" fill="#2a1520" />
+                <path d="M40 52 L36.5 55 L43.5 55 Z" fill="#c4637a" />
+                <path d="M40 55 Q37 58 34 56 M40 55 Q43 58 46 56" stroke="#c4637a" stroke-width="1" fill="none" stroke-linecap="round" />
+                <path d="M18 48 L6 46 M18 52 L6 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                <path d="M62 48 L74 46 M62 52 L74 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- ==================================================== -->
+    <!-- CUSTOM CAT CURSOR                                    -->
+    <!-- ==================================================== -->
+    <div class="cat-cursor" id="catCursor" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="32" height="32">
+            <path d="M7 12 L5 4 L13 8 Z" fill="#c4637a" stroke="#a94f65" stroke-width="0.8" stroke-linejoin="round" />
+            <path d="M25 12 L27 4 L19 8 Z" fill="#c4637a" stroke="#a94f65" stroke-width="0.8" stroke-linejoin="round" />
+            <circle cx="16" cy="18" r="10" fill="#fce7ef" stroke="#c4637a" stroke-width="1.4" />
+            <circle class="cursor-eye" cx="12" cy="17" r="1.5" fill="#2a1520" />
+            <circle class="cursor-eye" cx="20" cy="17" r="1.5" fill="#2a1520" />
+            <path d="M16 21 L14.8 22.6 L17.2 22.6 Z" fill="#c4637a" />
+            <path d="M6 20 L2 19 M6 22 L2 22.5" stroke="#c4637a" stroke-width="0.8" stroke-linecap="round" opacity="0.7" />
+            <path d="M26 20 L30 19 M26 22 L30 22.5" stroke="#c4637a" stroke-width="0.8" stroke-linecap="round" opacity="0.7" />
+        </svg>
+    </div>
+
+    <!-- ==================================================== -->
+    <!-- INTRO OVERLAY                                        -->
+    <!-- ==================================================== -->
+    <div class="intro" id="intro" aria-hidden="true">
+        <div class="intro-curtain intro-curtain-left"></div>
+        <div class="intro-curtain intro-curtain-right"></div>
+
+        <div class="intro-decor">
+            <!-- 4 corner flowers -->
+            <div class="intro-flower intro-flower-tl">
+                <svg viewBox="0 0 40 40" width="42" height="42">
+                    <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                    <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                    <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+                </svg>
+            </div>
+
+            <div class="intro-flower intro-flower-tr">
+                <svg viewBox="0 0 40 40" width="42" height="42">
+                    <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                    <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                    <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+                </svg>
+            </div>
+
+            <div class="intro-flower intro-flower-bl">
+                <svg viewBox="0 0 40 40" width="34" height="34">
+                    <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                    <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                    <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+                </svg>
+            </div>
+
+            <div class="intro-flower intro-flower-br">
+                <svg viewBox="0 0 40 40" width="34" height="34">
+                    <circle cx="20" cy="10" r="7" fill="#f9c9d6" />
+                    <circle cx="30" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="30" r="7" fill="#f9c9d6" />
+                    <circle cx="10" cy="20" r="7" fill="#f9c9d6" />
+                    <circle cx="20" cy="20" r="4.5" fill="#e0a7b7" />
+                </svg>
+            </div>
+
+            <!-- 2 cats sitting in the bottom corners of the intro -->
+            <div class="intro-cat intro-cat-left">
+                <svg viewBox="0 0 80 70" width="110" height="96">
+                    <path d="M12 35 L10 5 L32 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                    <path d="M68 35 L70 5 L48 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                    <circle cx="40" cy="45" r="28" fill="#fce7ef" stroke="#c4637a" stroke-width="1.4" />
+                    <ellipse cx="30" cy="42" rx="3" ry="4" fill="#2a1520" />
+                    <ellipse cx="50" cy="42" rx="3" ry="4" fill="#2a1520" />
+                    <path d="M40 52 L36.5 55 L43.5 55 Z" fill="#c4637a" />
+                    <path d="M40 55 Q37 58 34 56 M40 55 Q43 58 46 56" stroke="#c4637a" stroke-width="1" fill="none" stroke-linecap="round" />
+                    <path d="M18 48 L6 46 M18 52 L6 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                    <path d="M62 48 L74 46 M62 52 L74 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                </svg>
+            </div>
+
+            <div class="intro-cat intro-cat-right">
+                <svg viewBox="0 0 80 70" width="110" height="96">
+                    <path d="M12 35 L10 5 L32 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                    <path d="M68 35 L70 5 L48 25 Z" fill="#e0a7b7" stroke="#c4637a" stroke-width="1.2" stroke-linejoin="round" />
+                    <circle cx="40" cy="45" r="28" fill="#fce7ef" stroke="#c4637a" stroke-width="1.4" />
+                    <ellipse cx="30" cy="42" rx="3" ry="4" fill="#2a1520" />
+                    <ellipse cx="50" cy="42" rx="3" ry="4" fill="#2a1520" />
+                    <path d="M40 52 L36.5 55 L43.5 55 Z" fill="#c4637a" />
+                    <path d="M40 55 Q37 58 34 56 M40 55 Q43 58 46 56" stroke="#c4637a" stroke-width="1" fill="none" stroke-linecap="round" />
+                    <path d="M18 48 L6 46 M18 52 L6 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                    <path d="M62 48 L74 46 M62 52 L74 53" stroke="#c4637a" stroke-width="1" stroke-linecap="round" opacity="0.6" />
+                </svg>
             </div>
         </div>
-    </section>
+
+        <div class="intro-name" id="introName">Moridiyat</div>
+    </div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#about" class="logo">Moridiyat</a>
+
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#journey">Journey</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Tech Stack</a>
+                <a href="#education">Education</a>
+            </nav>
+
+            <div class="nav-right">
+                <a href="#contact" class="btn-contact">
+                    <svg class="btn-cat" viewBox="0 0 46 34" width="26" height="20" aria-hidden="true">
+                        <path class="cat-part cat-tail" d="M10 20 Q4 17 6 9"
+                            fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+                        <path class="cat-part cat-ear" d="M29 10 L28 3 L34 8 Z" fill="currentColor" />
+                        <path class="cat-part cat-ear" d="M36 8 L42 3 L41 11 Z" fill="currentColor" />
+                        <circle class="cat-part cat-head" cx="35" cy="14" r="7" fill="currentColor" />
+                        <ellipse class="cat-part cat-body" cx="20" cy="21" rx="14" ry="7.5" fill="currentColor" />
+                        <rect class="cat-part cat-leg cat-leg-1" x="11" y="26" width="3" height="5" rx="1.5" fill="currentColor" />
+                        <rect class="cat-part cat-leg cat-leg-2" x="18" y="26" width="3" height="5" rx="1.5" fill="currentColor" />
+                        <rect class="cat-part cat-leg cat-leg-3" x="24" y="26" width="3" height="5" rx="1.5" fill="currentColor" />
+                        <rect class="cat-part cat-leg cat-leg-4" x="31" y="26" width="3" height="5" rx="1.5" fill="currentColor" />
+                        <circle class="cat-eye cat-eye-1" cx="33" cy="13" r="1.3" fill="#fff" />
+                        <circle class="cat-eye cat-eye-2" cx="37" cy="13" r="1.3" fill="#fff" />
+                    </svg>
+                    <span>Contact me</span>
+                </a>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"
+                    aria-controls="navDrawer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="nav-drawer" id="navDrawer" aria-label="Mobile">
+            <a href="#about">About</a>
+            <a href="#journey">Journey</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Tech Stack</a>
+            <a href="#education">Education</a>
+            <a href="#contact" class="drawer-contact">Contact me</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about" class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-photo-wrap reveal">
+                    <div class="hero-photo">
+                        <span class="hero-monogram">M</span>
+                    </div>
+                </div>
+
+                <div class="hero-content reveal">
+                    <p class="hero-greeting">
+                        <span id="greeting">Hello</span><span class="dash">—</span>
+                    </p>
+
+                    <h1 class="hero-name">
+                        <span class="hero-name-outline">Moridiyat</span>
+                    </h1>
+
+                    <div class="hero-subline">
+                        <span class="hero-role">Software Developer</span>
+                        <span class="status-pulse" aria-hidden="true"></span>
+                    </div>
+
+                    <p class="hero-bio">
+                        I love building things that work. Give me a problem and I'll
+                        figure out how to solve it. I'm not here to write code that
+                        just runs — I want to build things that make life easier for
+                        the people using them.
+                    </p>
+
+                    <p class="hero-tagline">
+                        Clean code. Real projects. Always learning.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Resume
+                        </a>
+
+                        <div class="social-pill">
+                            <a href="https://github.com/Moridiyah" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path
+                                        d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .3.21.66.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com/in/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path
+                                        d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" />
+                                </svg>
+                            </a>
+                            <a href="mailto:hello@example.com" aria-label="Email">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="journey" class="journey-section">
+            <div class="journey-sticky">
+
+                <div class="journey-header">
+                    <div class="container">
+                        <div class="section-header">
+                            <span class="section-icon" aria-hidden="true">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+                                </svg>
+                            </span>
+                            <h2 class="section-heading">Journey</h2>
+                        </div>
+                        <p class="section-sub">
+                            Keep scrolling — the cards slide as you go.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="journey-viewport">
+                    <div class="journey-track" id="journeyTrack">
+
+                        <article class="journey-card">
+                            <div class="journey-visual">
+                                <span class="journey-number">01</span>
+                            </div>
+                            <div class="journey-body">
+                                <span class="journey-status">
+                                    <span class="journey-dot"></span>
+                                    Coming soon
+                                </span>
+                                <p>A new chapter is on the way.</p>
+                            </div>
+                        </article>
+
+                        <article class="journey-card">
+                            <div class="journey-visual">
+                                <span class="journey-number">02</span>
+                            </div>
+                            <div class="journey-body">
+                                <span class="journey-status">
+                                    <span class="journey-dot"></span>
+                                    Coming soon
+                                </span>
+                                <p>A new chapter is on the way.</p>
+                            </div>
+                        </article>
+
+                        <article class="journey-card">
+                            <div class="journey-visual">
+                                <span class="journey-number">03</span>
+                            </div>
+                            <div class="journey-body">
+                                <span class="journey-status">
+                                    <span class="journey-dot"></span>
+                                    Coming soon
+                                </span>
+                                <p>A new chapter is on the way.</p>
+                            </div>
+                        </article>
+
+                        <article class="journey-card">
+                            <div class="journey-visual">
+                                <span class="journey-number">04</span>
+                            </div>
+                            <div class="journey-body">
+                                <span class="journey-status">
+                                    <span class="journey-dot"></span>
+                                    Coming soon
+                                </span>
+                                <p>A new chapter is on the way.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="journey-progress" aria-hidden="true">
+                    <span class="journey-progress-fill" id="journeyProgress"></span>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-icon" aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+                        </svg>
+                    </span>
+                    <h2 class="section-heading">Personal Projects</h2>
+                </div>
+
+                <p class="section-sub">
+                    Hover a card to see what's inside. More on the way.
+                </p>
+
+                <div class="projects-flip-grid">
+
+                    <article class="project-flip" tabindex="0">
+                        <div class="project-flip-inner">
+                            <div class="project-face project-front">
+                                <div class="project-visual">
+                                    <span class="project-number">01</span>
+                                    <span class="project-hover-hint">Hover →</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>This Portfolio</h3>
+                                    <p>My first project — built from scratch with vanilla HTML, CSS, and JavaScript. No frameworks, no templates.</p>
+                                    <div class="tech-tags">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-face project-back">
+                                <div class="project-visual">
+                                    <span class="project-number">01</span>
+                                </div>
+                                <div class="project-info">
+                                    <h4 class="project-back-title">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                            <polyline points="9 11 12 14 22 4" />
+                                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+                                        </svg>
+                                        Key Features
+                                    </h4>
+                                    <ul class="feature-list">
+                                        <li>Letter-by-letter intro animation with a curtain reveal</li>
+                                        <li>Scroll-triggered fade-in on every section</li>
+                                        <li>Active nav link that follows the scroll position</li>
+                                        <li>Fully responsive layout down to phone width</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-flip" tabindex="0">
+                        <div class="project-flip-inner">
+                            <div class="project-face project-front">
+                                <div class="project-visual">
+                                    <span class="project-number">02</span>
+                                    <span class="project-hover-hint">Hover →</span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Coming Soon</h3>
+                                    <p>The next build is in progress. Check back to see it land here.</p>
+                                    <div class="tech-tags">
+                                        <span>?</span>
+                                        <span>?</span>
+                                        <span>?</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-face project-back">
+                                <div class="project-visual">
+                                    <span class="project-number">02</span>
+                                </div>
+                                <div class="project-info">
+                                    <h4 class="project-back-title">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                            <polyline points="9 11 12 14 22 4" />
+                                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+                                        </svg>
+                                        Key Features
+                                    </h4>
+                                    <ul class="feature-list">
+                                        <li>Something new being built right now</li>
+                                        <li>Will land here when it's ready</li>
+                                        <li>Probably something fun</li>
+                                        <li>Definitely something honest</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="tech-section reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-icon" aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6" />
+                            <polyline points="8 6 2 12 8 18" />
+                        </svg>
+                    </span>
+                    <h2 class="section-heading">Tech Stack</h2>
+                </div>
+
+                <p class="section-sub">
+                    The tools I'm learning with, and building with.
+                </p>
+
+                <div class="tech-grid reveal-stagger">
+                    <div class="tech-card">
+                        <img src="https://skillicons.dev/icons?i=html" alt="" loading="lazy" width="32" height="32" />
+                        <span>HTML</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="https://skillicons.dev/icons?i=css" alt="" loading="lazy" width="32" height="32" />
+                        <span>CSS</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="https://skillicons.dev/icons?i=js" alt="" loading="lazy" width="32" height="32" />
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="https://skillicons.dev/icons?i=react" alt="" loading="lazy" width="32" height="32" />
+                        <span>React</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="https://skillicons.dev/icons?i=nodejs" alt="" loading="lazy" width="32" height="32" />
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="https://skillicons.dev/icons?i=github" alt="" loading="lazy" width="32" height="32" />
+                        <span>Git &amp; GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-icon" aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                            <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                        </svg>
+                    </span>
+                    <h2 class="section-heading">Education</h2>
+                </div>
+
+                <p class="section-sub">
+                    Where I've studied, and where I'm studying now.
+                </p>
+
+                <div class="edu-grid reveal-stagger">
+                    <article class="edu-card">
+                        <div class="edu-top">
+                            <span class="edu-num">01</span>
+                            <svg class="edu-icon" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                            </svg>
+                        </div>
+                        <span class="edu-dates">20XX — 20XX</span>
+                        <h3 class="edu-school">Primary School</h3>
+                        <p class="edu-program">Primary Education</p>
+                    </article>
+
+                    <article class="edu-card">
+                        <div class="edu-top">
+                            <span class="edu-num">02</span>
+                            <svg class="edu-icon" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                            </svg>
+                        </div>
+                        <span class="edu-dates">20XX — 20XX</span>
+                        <h3 class="edu-school">Secondary School</h3>
+                        <p class="edu-program">Secondary Education</p>
+                    </article>
+
+                    <article class="edu-card">
+                        <div class="edu-top">
+                            <span class="edu-num">03</span>
+                            <svg class="edu-icon" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                            </svg>
+                        </div>
+                        <span class="edu-dates">20XX — Present</span>
+                        <h3 class="edu-school">University</h3>
+                        <p class="edu-program">Degree Program</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title">Contact</h2>
             <ul class="contact-list">
-                <li>Email: <a href="mailto:moridiyahs@gmail.com">moridiyahs@gmail.com</a></li>
-                <li>GitHub: <a href="https://github.com/Moridiyah" target="_blank" rel="noopener">github.com/Moridiyah</a></li>
-                <li>LinkedIn: <a href="https://linkedin.com/in/Moridiyah" target="_blank" rel="noopener">linkedin.com/in/Moridiyah</a></li>
+                <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+                <li>GitHub: <a href="https://github.com/USERNAME" target="_blank" rel="noopener">github.com/USERNAME</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/USERNAME" target="_blank" rel="noopener">linkedin.com/in/USERNAME</a></li>
             </ul>
         </div>
     </section>
 
-    <!-- Footer -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <p>&copy; <span id="year"></span> Moridiyat. All rights reserved.</p>
